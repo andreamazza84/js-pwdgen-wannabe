@@ -9,12 +9,16 @@
 </head>
 <body>
 <h1>Inserisci i tuoi dati per creare una password</h1>
-<form id="form1">
+<form>
   <input type="text" id="nome" name="name" placeholder="Nome" value="Andrea"><br>
   <input type="text" id="cognome" name="surname" placeholder="Cognome" value="Mazza"><br>
   <input type="text" id="eta" name="age" placeholder="Eta'" value="36"> <br>
 </form>
-<button onclick="keyGen()" id="submit" form="form1">Submit</button>
+<button onclick="keyGen()" id="submit">Submit</button>
+
+<p id="name">Nome</p>
+<p id="surname">Cognome</p>
+<p id="age">Password</p>
 
 <p>La tua password è <strong id="key"></strong></p>
 
