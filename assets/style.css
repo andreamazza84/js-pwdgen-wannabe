@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #dedede;
+}
+
+h1{
+  font-size: 25px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+input, button{
+  font-size: 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  padding: 5px;
+  border: 1px solid #333;
+  color: #333;
+  background-color: #fafafa;
+}
+ p{
+   margin-left: 10px;
+ }
